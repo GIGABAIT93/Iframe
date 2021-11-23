@@ -12,8 +12,8 @@
 $INFO_MODULE = array(
 	'name' => 'Iframe',
 	'author' => '<a href="https://tensa.co.ua" target="_blank" rel="nofollow noopener">xGIGABAITx</a>',
-	'module_ver' => '1.2.0',
-	'nml_ver' => '2.0.0-pr10',
+	'module_ver' => '1.2.1',
+	'nml_ver' => '2.0.0-pr12',
 );
 
 $IframeLanguage = new Language(ROOT_PATH . '/modules/' . $INFO_MODULE['name'] . '/language', LANGUAGE);

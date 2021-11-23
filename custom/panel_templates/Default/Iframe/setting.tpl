@@ -68,7 +68,7 @@
 
 						<hr>
 
-						{if count($IFRAME_LIST)}
+						{if isset($IFRAME_LIST) && count($IFRAME_LIST)}
 							<h4 class="text-center">{$IFRAME}</h4>
 							<div class="table-responsive">
 								<table class="table table-striped">

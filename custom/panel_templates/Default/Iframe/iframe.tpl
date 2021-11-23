@@ -61,7 +61,7 @@
 								</i></button>
 						</div>
 						<hr>
-						{if count($PAGES_LIST)}
+						{if isset($PAGES_LIST) && count($PAGES_LIST)}
 							<h4 class="text-center">{$PAGES}</h4>
 							<div class="table-responsive">
 								<table class="table table-striped">
